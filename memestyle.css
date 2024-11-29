@@ -1,0 +1,17 @@
+#memesContainer {
+    width: 30%;
+    background-color: darkgrey;
+}
+
+img {
+    width: 100%;
+    transition: 0.5s;
+    opacity: 0;
+    transform: rotateY(180deg);
+}
+
+#memesContainer:hover img {
+    transform: rotateY(0deg);
+    opacity: 100;
+}
+
